@@ -23,11 +23,12 @@ export default function Login() {
         <input
           type="email"
           id="email"
+          placeholder="Seu melhor email"
           value={email}
           onChange={event => setEmail(event.target.value)}
         />
 
-        <button type="submit">Entrar</button>
+        <button className="btn" type="submit">Entrar</button>
       </form>
     </>
   );
